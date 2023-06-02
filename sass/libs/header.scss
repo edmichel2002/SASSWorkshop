@@ -10,15 +10,18 @@ background: #ffff;
 .header__logo{
     display: flex;
     justify-content: center;
+    width: 375px;
+    height: 63px;
 }
 
 .header__logo img{
 height: 29px;
 width: 162px;
-margin-top: 14px;
+margin-top: 20px;
 margin-bottom: 5px;
 }
 }
+
 .location{
     display: flex;
     align-items: center;

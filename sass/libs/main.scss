@@ -1,0 +1,40 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: roboto;
+    font-size: 16px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        background:#F7F7F7;
+    }
+    .title__menu{
+        width: 275px ;
+        margin-top: 40px;
+        margin-left: 42px;
+        margin-right:58px ;
+        text-align: center;
+        height: 68px;
+        font-weight:700 ;
+        font-size: 24px;
+}
+.subtitle__menu {
+    width: 315px;
+    height: 46px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 34px;
+    margin-right: 26px;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        width: 218px;
+        height: 50px;
+        background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+        margin-top:27px ;
+        border-radius:25px ;
+    }
+    
