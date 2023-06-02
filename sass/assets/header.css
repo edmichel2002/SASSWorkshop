@@ -1,0 +1,12 @@
+container {
+  width: 100%;
+  max-width: 767, 98px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+header .header__logo img {
+  height: 44px;
+}/*# sourceMappingURL=header.css.map */
