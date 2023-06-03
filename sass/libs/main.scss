@@ -36,5 +36,20 @@
         background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
         margin-top:27px ;
         border-radius:25px ;
+        text-align: center;
+        margin-left: 82px;
     }
+    .text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 13px;
+        margin-bottom: 13px;
+        margin-left: 19px;
+        margin-right: 19px;
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    
     
