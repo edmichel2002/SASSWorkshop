@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@300;700&family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="/assets/style.css">
@@ -28,37 +30,39 @@
             </article>
         </header>
 
-        <main class="container">
+        <main>
             <section class="menu">
                 <h1 class="title__menu">Réservez le menu qui vous convient</h1>
                 <p class="subtitle__menu">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
                     <div class="button">
-                        <a href="#restaurants"><p class="text"> Explorez nos restaurants</p></a>
+                        <a href="#restaurants">
+                            <p class="text">Explorez nos restaurants</p>
+                        </a>
                     </div>
             </section>
 
             <section class="running">
                 <h2 class="title__running">Fonctionnement</h2>
-                <ul class="content__running">
+                <aside class="content__running">
 
-                    <p class="numbers">1</p>
-                    <li class="list__running">
+                    <article class="list__running">
+                        <p class="circle">1</p>
                         <i class="fa-solid fa-mobile-screen-button "></i>
-                        <p>Choisissez un restaurant</p>  
-                    </li>
+                        <p class="fonts">Choisissez un restaurant</p>  
+                    </article>
 
-                    <p class="numbers">2</p>
-                    <li class="list__running">
+                    <article class="list__running">
+                        <p class="circle">2</p>
                         <i class="fa-solid fa-list-ul"></i>
-                        <p>Composez votre menu</p>  
-                    </li>
+                        <p class="fonts">Composez votre menu</p>  
+                    </article>
 
-                    <p class="numbers">3</p>
-                    <li class="list__running">
+                    <article class="list__running">
+                        <p class="circle">3</p>
                         <i class="fa-sharp fa-solid fa-store"></i>
-                        <p>Dégustez au restaurant</p>  
-                    </li>
-                </ul>
+                        <p class="fonts">Dégustez au restaurant</p>  
+                    </article>
+                </aside>
             </section>
 
             <section id="restaurants">
