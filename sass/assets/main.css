@@ -108,4 +108,13 @@
 }
 .content__running .list__running .fonts {
   font-weight: 500;
+}
+.content__running #restaurants {
+  display: flex;
+  flex-direction: column;
+}
+.content__running #restaurants .restaurants__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 20px;
 }/*# sourceMappingURL=main.css.map */
