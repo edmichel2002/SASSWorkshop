@@ -6,6 +6,10 @@
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -46,9 +50,6 @@
   margin-bottom: 57px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-}
-.button a {
-  text-decoration: none;
 }
 
 .text {
@@ -109,12 +110,73 @@
 .content__running .list__running .fonts {
   font-weight: 500;
 }
-.content__running #restaurants {
+
+#restaurants {
   display: flex;
   flex-direction: column;
+  margin-top: 54px;
+  padding-left: 14px;
+  padding-right: 15px;
 }
-.content__running #restaurants .restaurants__title {
+
+.restaurants__title {
   font-size: 24px;
   font-weight: 700;
   margin-left: 20px;
+}
+
+.cards__content {
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  height: 293px;
+}
+
+.cards__news {
+  position: relative;
+  top: 50px;
+  left: 200px;
+  background-color: #99E2D0;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 2px;
+  color: #008766;
+}
+
+.cards__content img {
+  border-radius: 15px 15px 0px 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 346px;
+}
+
+.rectangle {
+  height: 77px;
+}
+
+.restaurant__name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-left: 13px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.local {
+  margin-left: 13px;
+  margin-bottom: 14px;
+}
+
+.heart {
+  display: flex;
+  position: relative;
+  width: 22px;
+  height: 21;
+}
+
+.fa-heart {
+  position: absolute;
+  right: 50px;
+  bottom: -320px;
 }/*# sourceMappingURL=main.css.map */
