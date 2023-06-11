@@ -161,14 +161,15 @@
     .heart{
         display: flex;
         position: relative;
-        width:22px ;
-        height: 21;
+        width:100% ;
+        height: 100%;
     }
 
     .fa-heart{
         position: absolute;
-        right:50px;
-        bottom: -320px;
+        right:35px;
+        bottom: -397px;
+        /*color:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);*/
     }
     
     

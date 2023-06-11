@@ -1,0 +1,44 @@
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 22px 25px;
+    margin-top: 44px;
+    background: #353535;
+}
+.text-footer{
+    font-size:18px ;
+    font-family:Shrikhand;
+    color: #FFFFFF;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.fa-utensils{
+    position: absolute;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    }
+
+    .ideas{
+        margin-left: 20px;
+        margin-bottom: 5px;
+        color: #FFFFFF;
+    }
+.fa-handshake-angle{
+    position:absolute;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+
+}
+.collabs{
+    margin-left: 28px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+.lawyer{
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+.contact{
+    margin-bottom: -5px;
+    color: #FFFFFF;
+}
