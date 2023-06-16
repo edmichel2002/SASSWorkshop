@@ -4,6 +4,6 @@ OpenClassrooms - Intégrateur Web
 
 Projet 4 : Améliorez l'interface d'un site mobile avec des animations CSS
 
-Nom Projet : OhMyFood
+Nom du Projet : OhMyFood
 
-Technologies Utilisées : HTML, CSS, SASS
+Technologies Utilisées : HTML, CSS, SASS, SHELL
