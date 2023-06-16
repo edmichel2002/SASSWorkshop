@@ -1,6 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   font-family: roboto;
   font-size: 16px;
@@ -19,21 +20,20 @@ a {
 .title__menu {
   width: 275px;
   margin-top: 40px;
-  margin-left: 25px;
+  margin-left: 15px;
   margin-right: 58px;
   text-align: center;
   height: 68px;
   font-weight: 700;
-  font-size: 25px;
+  padding: 0 20px;
 }
 
 .subtitle__menu {
   width: 315px;
   height: 46px;
+  font-weight: 300;
   text-align: center;
-  font-size: 17px;
-  margin-left: 6px;
-  line-height: 22px;
+  padding: 0 21px;
   color: #353535;
 }
 
@@ -46,7 +46,7 @@ a {
   margin-top: 27px;
   border-radius: 25px;
   text-align: center;
-  margin-left: 59px;
+  margin-left: 45px;
   margin-bottom: 57px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   cursor: pointer;
@@ -77,6 +77,7 @@ a {
 .content__running {
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
 }
 .content__running .circle {
   position: absolute;
@@ -117,18 +118,22 @@ a {
   margin-top: 54px;
   padding-left: 14px;
   padding-right: 15px;
+  background: #F6F6F6;
+  padding-top: 38px;
 }
 
 .restaurants__title {
   font-size: 24px;
   font-weight: 700;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
-.cards__content {
-  border-radius: 15px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  height: 293px;
+.cards img {
+  border-radius: 15px 15px 0px 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 346px;
+  height: 231px;
 }
 
 .cards__news {
@@ -143,29 +148,29 @@ a {
   color: #008766;
 }
 
-.cards__content img {
-  border-radius: 15px 15px 0px 0px;
-  padding-left: 3px;
-  padding-right: 3px;
-  width: 346px;
+.cards__content {
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 21px;
 }
 
-.rectangle {
-  height: 77px;
-}
-
+/*.rectangle{
+    height: 77px;
+}*/
 .restaurant__name {
   font-size: 18px;
   font-weight: 700;
-  margin-top: 16px;
+  margin-top: 10px;
   margin-left: 13px;
   margin-bottom: 5px;
   color: black;
 }
 
-.local {
+.location2 {
   margin-left: 13px;
   margin-bottom: 14px;
+  margin-top: 5px;
+  color: black;
 }
 
 .heart {
@@ -178,6 +183,5 @@ a {
 .fa-heart {
   position: absolute;
   right: 35px;
-  bottom: -397px;
   /*color:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);*/
 }/*# sourceMappingURL=main.css.map */
