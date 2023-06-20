@@ -349,37 +349,24 @@ a {
   height: 100%;
 }
 
-header {
+.body__container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 63px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-  position: relative;
-  z-index: 1;
+  flex-direction: column;
+  width: 100%;
 }
-
-.header-title {
-  font-size: 30px;
-  margin-top: 14px;
-  margin-bottom: 5px;
-}
-
-.header-return {
-  display: flex;
-  align-items: center;
+.body__container .fa-arrow-left {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin-top: 23px;
-  margin-left: 23px;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  margin: 24px 24px 23px 23px;
 }
-.header-return__fa {
-  font-size: 20px;
+.body__container .main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.body__container .background {
+  width: 375px;
+  height: 275px;
 }
 
 /*# sourceMappingURL=style.css.map */

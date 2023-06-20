@@ -1,1 +1,19 @@
-/*# sourceMappingURL=restaurant.css.map */
+.body__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.body__container .fa-arrow-left {
+  position: absolute;
+  width: 18px;
+  margin: 24px 24px 23px 23px;
+}
+.body__container .main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.body__container .background {
+  width: 375px;
+  height: 275px;
+}/*# sourceMappingURL=restaurant.css.map */

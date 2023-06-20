@@ -1,0 +1,23 @@
+.body__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .fa-arrow-left{
+        position: absolute;
+        width: 18px;
+        margin: 24px 24px 23px 23px;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .background{
+        width: 375px;
+        height: 275px;
+    }
+
+
+}
