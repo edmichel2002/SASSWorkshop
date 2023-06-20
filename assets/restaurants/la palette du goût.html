@@ -8,20 +8,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@300;700&family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="restaurants.css">
+    <link rel="stylesheet" href="/assets/style.css">
     <title>La palette du goût</title>
 </head>
 <body>
+    <div class="body__container">
     <header>
-        <div class="go__back">
             <a href="index.html">
                 <i class="fa-solid fa-arrow-left"></i>
-                <img src="../images/logo/ohmyfood.png" alt="Logo">
             </a>
-        </div>  
+                <img src="../images/logo/ohmyfood.png" alt="Logo" class="logo">
     </header>
 
-    <main class="container">
+    <main class="main-container">
     <section class="image">
         <figure class="background">
             <img src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="background">
@@ -40,9 +39,28 @@
             </aside>
         </section>
 
+        <button class="btn__command">Commander</button>
 
-
-        <button>Commander</button>
+        <footer>
+            <article class="container-footer">
+                <p class="text-footer">OhMyFood</p>
+                <div>
+                    <a href="#">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ideas">Proposer un restaurant</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                        <p class="collabs">Devenir Partenaire</p>
+                    </a>
+                </div>
+                <a href="#"><p class="lawyer">Mentions légales</p></a>
+                <a href="mailto:contact@ohmyfood.com"><p class="contact">Contact</p></a>
+            </article>
+        </footer>
     </main>
+</div>
 </body>
 </html>
