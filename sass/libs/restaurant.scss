@@ -16,7 +16,23 @@
     }
     .background{
         width: 375px;
-        height: 275px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .menu{
+        position: relative;
+        top: -40px;
+        border-radius: 40px 40px 0 0;
+
+        .title{
+        font-family: shrikland; 
+        font-style: italic;
+        font-weight: 400;
+        size: 28px;
+        margin-left:17px ;
+        margin-right:17px ;
+        }
     }
 
 
