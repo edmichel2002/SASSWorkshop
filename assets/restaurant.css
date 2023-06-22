@@ -1,0 +1,32 @@
+.body__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.body__container .fa-arrow-left {
+  position: absolute;
+  width: 18px;
+  margin: 24px 24px 23px 23px;
+}
+.body__container .main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.body__container .background {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.body__container .menu {
+  position: relative;
+  top: -40px;
+  border-radius: 40px 40px 0 0;
+}
+.body__container .menu .title {
+  font-family: shrikland;
+  font-style: italic;
+  font-weight: 400;
+  margin-left: 17px;
+  margin-right: 17px;
+}/*# sourceMappingURL=restaurant.css.map */

@@ -293,7 +293,7 @@ a {
   padding-left: 3px;
   padding-right: 3px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 346px;
   height: 160px;
 }
@@ -370,7 +370,7 @@ a {
   width: 375px;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .body__container .menu {
   position: relative;
