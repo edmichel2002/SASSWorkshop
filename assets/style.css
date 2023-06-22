@@ -293,7 +293,7 @@ a {
   padding-left: 3px;
   padding-right: 3px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 346px;
   height: 160px;
 }
@@ -367,21 +367,63 @@ a {
   width: 100%;
 }
 .body__container .background {
-  width: 375px;
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
 }
 .body__container .menu {
   position: relative;
   top: -40px;
   border-radius: 40px 40px 0 0;
+  /*.cards__content{
+      margin-left: 15px;
+      padding: 13px 0;
+  }*/
 }
 .body__container .menu .title {
-  font-family: shrikland;
+  font-family: Shrikhand;
   font-style: italic;
   font-weight: 400;
-  size: 28px;
   margin-left: 17px;
-  margin-right: 17px;
+  padding-top: 32px;
+}
+.body__container .menu .like {
+  display: flex;
+  position: relative;
+  margin-left: 269px;
+  top: -25px;
+}
+.body__container .menu .entries {
+  display: flex;
+  flex-direction: column;
+}
+.body__container .menu .plate {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: roboto;
+  margin-left: 13px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+}
+.body__container .menu .cards {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1);
+  margin: 13px;
+}
+.body__container .menu .menu__entries {
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 500;
+}
+.body__container .menu .accompaniement {
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: 300;
+  white-space: nowrap;
+}
+.body__container .menu .menu__price {
+  position: absolute;
+  margin-left: 230px;
+  top: 34px;
 }/*# sourceMappingURL=style.css.map */
