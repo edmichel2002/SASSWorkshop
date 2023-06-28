@@ -30,13 +30,6 @@
         margin-left:17px ;
         padding-top: 32px;
     }
-    
-    .like{
-        display: flex;
-        position: relative;
-        margin-left: 269px;
-        top: -25px;
-    }
     .entries{
         display: flex;
         flex-direction: column;
@@ -47,7 +40,6 @@
         background-color: #99E2D0;
         margin-left: 13px;
         border-color: #99E2D0;
-        color: #99E2D0;
 
     }
     .plate{
@@ -69,11 +61,13 @@
         background: #fff;
         margin-bottom: -25px;
     }
+
     .menu__entries{
         font-size: 18px;
         font-family: roboto;
         font-weight: 500;
         margin-left: 15px;
+        margin-bottom: 5px;
     }
     .accompaniement{
         font-size: 15px;
@@ -83,10 +77,44 @@
     }
     .menu__price{
         position: absolute;
-        margin-left: 230px;
-        top: 34px;
-
+        margin-left: 248px;
+        top: 38px;
+        font-weight: 900;
+        border: 1px solid;
     }
+    .fa-circle-check{
+    position: relative;
+    margin-left: 274px;
+    cursor: pointer;
+    top: -17px;
+    background-color: #99E2D0;
     
+    /*-webkit-animation: slide-left 1.5s ease-in both;
+	animation: slide-left 1.5s ease-in both;*/
+    }
         }
 }
+
+/*@-webkit-keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+}
+@keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+}*/
+
+
+

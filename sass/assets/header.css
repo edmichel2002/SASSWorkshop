@@ -1,6 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  /*@media screen and (min-width: 634px) {
+      header img{
+          width:;
+          margin-top:;
+          margin-bottom:;
+      }
+  }*/
 }
 body .header {
   display: flex;
@@ -29,5 +36,5 @@ body .location {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
 body .fa-location-dot {
-  margin-right: 3px;
+  margin-right: 130px;
 }/*# sourceMappingURL=header.css.map */
