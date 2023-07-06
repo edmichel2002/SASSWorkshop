@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@300;700&family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@300;700&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/style.css">
     <title>OhMyFood - Homepage</title>
 </head>
@@ -17,13 +20,13 @@
 <body>
     <!-----------------   Loader  -------->
     <div class="loader">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+        <div class="circle-loader"></div>
+        <div class="circle-loader"></div>
+        <div class="circle-loader"></div>
     </div>
 
-    
-<!-- <div class="section">
+
+    <!-- <div class="section">
         <div class="loader_container">
         <div class="circle">
             <span style="--i:0;"></span>
@@ -53,65 +56,66 @@
     -->
 
     <!----- Header ------>
-        <header class="header">
-            <div class="logo">
+    <header class="header">
+        <div class="logo">
             <!-- <a href="#">
                     <i class="fa-solid fa-arrow-left"></i>
                 </a> -->
-                <img src="assets/images/logo/ohmyfood.png" alt="logo" class="header__img">
-            </div> 
+            <img src="assets/images/logo/ohmyfood.png" alt="logo" class="header__img">
+        </div>
 
-            <article class="location">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p class="local">Paris, Belleville</p>
-            </article>
-        </header>
+        <article class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="local">Paris, Belleville</p>
+        </article>
+    </header>
 
-        <main>
-            <section class="menu">
-                <h1 class="title__menu">Réservez le menu qui vous convient</h1>
-                <p class="subtitle__menu">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                    <div class="button">
-                        <a href="#restaurants">
-                            <p class="text">Explorez nos restaurants</p>
-                        </a>
-                    </div>
-            </section>
+    <main>
+        <section class="menu">
+            <h1 class="title__menu">Réservez le menu qui vous convient</h1>
+            <p class="subtitle__menu">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+            <div class="button">
+                <a href="#restaurants">
+                    <p class="text">Explorez nos restaurants</p>
+                </a>
+            </div>
+        </section>
 
-            <section class="running">
-                <h2 class="title__running">Fonctionnement</h2>
-                <aside class="content__running">
+        <section class="running">
+            <h2 class="title__running">Fonctionnement</h2>
+            <aside class="content__running">
 
-                    <article class="list__running">
-                        <p class="circle">1</p>
-                        <i class="fa-solid fa-mobile-screen-button "></i>
-                        <p class="fonts">Choisissez un restaurant</p>  
-                    </article>
+                <article class="list__running">
+                    <p class="circle">1</p>
+                    <i class="fa-solid fa-mobile-screen-button "></i>
+                    <p class="fonts">Choisissez un restaurant</p>
+                </article>
 
-                    <article class="list__running">
-                        <p class="circle">2</p>
-                        <i class="fa-solid fa-list-ul"></i>
-                        <p class="fonts">Composez votre menu</p>  
-                    </article>
+                <article class="list__running">
+                    <p class="circle">2</p>
+                    <i class="fa-solid fa-list-ul"></i>
+                    <p class="fonts">Composez votre menu</p>
+                </article>
 
-                    <article class="list__running">
-                        <p class="circle">3</p>
-                        <i class="fa-sharp fa-solid fa-store"></i>
-                        <p class="fonts">Dégustez au restaurant</p>  
-                    </article>
-                </aside>
-            </section>
+                <article class="list__running">
+                    <p class="circle">3</p>
+                    <i class="fa-sharp fa-solid fa-store"></i>
+                    <p class="fonts">Dégustez au restaurant</p>
+                </article>
+            </aside>
+        </section>
 
-            <section id="restaurants">
-                    <div class="section-title">
-                        <h2 class="restaurants__title">Restaurants</h2>
-                    </div>
-                <article class="container">
-                    <figure class="cards">
-                        <a href="restaurants/la_palette_du_gout.html">
-                            <div class="cards__content"> 
-                                <div class="cards__news">Nouveau</div>  
-                            <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="put the dish on the table">
+        <section id="restaurants">
+            <div class="section-title">
+                <h2 class="restaurants__title">Restaurants</h2>
+            </div>
+            <article class="container">
+                <figure class="cards">
+                    <a href="restaurants/la_palette_du_gout.html">
+                        <div class="cards__content">
+                            <div class="cards__news">Nouveau</div>
+                            <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                                alt="put the dish on the table">
                             <aside class="rectangle">
                                 <div class="rectangle__content">
                                     <div class="restaurant__name">La palette du goût</div>
@@ -124,14 +128,14 @@
                                     </div>
                                 </div>
                             </aside>
-                            </div>
-                        </a>
-                    </figure>
+                        </div>
+                    </a>
+                </figure>
 
-                    <figure class="cards">
-                        <a href="#">
-                            <div class="cards__content"> 
-                                <div class="cards__news">Nouveau</div>  
+                <figure class="cards">
+                    <a href="#">
+                        <div class="cards__content">
+                            <div class="cards__news">Nouveau</div>
                             <img src="assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="on the table">
                             <aside class="rectangle">
                                 <div class="rectangle__content">
@@ -145,14 +149,15 @@
                                     </div>
                                 </div>
                             </aside>
-                            </div>
-                        </a>
-                    </figure>
+                        </div>
+                    </a>
+                </figure>
 
-                    <figure class="cards">
-                        <a href="#">
-                            <div class="cards__content"> 
-                            <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="on the table">
+                <figure class="cards">
+                    <a href="#">
+                        <div class="cards__content">
+                            <img src="assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                                alt="on the table">
                             <aside class="rectangle">
                                 <div class="rectangle__content">
                                     <div class="restaurant__name">À la française</div>
@@ -165,14 +170,15 @@
                                     </div>
                                 </div>
                             </aside>
-                            </div>
-                        </a>
-                    </figure>
+                        </div>
+                    </a>
+                </figure>
 
-                    <figure class="cards">
-                        <a href="#">
-                            <div class="cards__content">  
-                            <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="on the table with light">
+                <figure class="cards">
+                    <a href="#">
+                        <div class="cards__content">
+                            <img src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                                alt="on the table with light">
                             <aside class="rectangle">
                                 <div class="rectangle__content">
                                     <div class="restaurant__name">Le délice des sens</div>
@@ -185,33 +191,38 @@
                                     </div>
                                 </div>
                             </aside>
-                            </div>
-                        </a>
-                    </figure>
-                </article>
-            </section>
-        </main>
+                        </div>
+                    </a>
+                </figure>
+            </article>
+        </section>
+    </main>
 
 
-<footer>
-    <article class="container-footer">
-        <p class="text-footer">OhMyFood</p>
-        <div>
+    <footer>
+        <article class="container-footer">
+            <p class="text-footer">OhMyFood</p>
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-utensils"></i>
+                    <p class="ideas">Proposer un restaurant</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <p class="collabs">Devenir Partenaire</p>
+                </a>
+            </div>
             <a href="#">
-                <i class="fa-solid fa-utensils"></i>
-                <p class="ideas">Proposer un restaurant</p>
+                <p class="lawyer">Mentions légales</p>
             </a>
-        </div>
-        <div>
-            <a href="#">
-                <i class="fa-solid fa-handshake-angle"></i>
-                <p class="collabs">Devenir Partenaire</p>
+            <a href="mailto:contact@ohmyfood.com">
+                <p class="contact">Contact</p>
             </a>
-        </div>
-        <a href="#"><p class="lawyer">Mentions légales</p></a>
-        <a href="mailto:contact@ohmyfood.com"><p class="contact">Contact</p></a>
-    </article>
-</footer>
-</div>
+        </article>
+    </footer>
+    </div>
 </body>
+
 </html>
