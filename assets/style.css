@@ -457,7 +457,9 @@ i {
   align-content: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 25px;
   gap: 30px;
 }
 .body__container .menu .title {
@@ -500,6 +502,9 @@ i {
   background: #fff;
   margin-bottom: -25px;
 }
+.body__container .menu .menu__items_entries {
+  width: 90%;
+}
 .body__container .menu .menu__entries {
   display: flex;
   font-size: 18px;
@@ -514,15 +519,6 @@ i {
   font-weight: 300;
   margin-left: 15px;
 }
-.body__container .menu .menu__price {
-  position: absolute;
-  margin-left: 248px;
-  top: 34px;
-  font-weight: 900;
-  border: 1px solid;
-  padding: 5px;
-  border-radius: 10px;
-}
 .body__container .menu .validation {
   display: flex;
   flex-direction: row;
@@ -530,4 +526,13 @@ i {
   background-color: #99E2D0;
   margin-left: 70px;
   align-items: center;
+}
+.body__container .menu .menu_cards {
+  margin-left: 20px;
+}
+.body__container .menu .price_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
 }/*# sourceMappingURL=style.css.map */

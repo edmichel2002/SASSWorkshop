@@ -31,16 +31,17 @@
             align-content: center;
             justify-content: flex-start;
             flex-wrap: wrap;
-            margin-bottom: 20px;
+            margin-left: 20px;
+            margin-top:30px;
+            margin-bottom: 25px;
             gap: 30px;
         }
 
-        .title{
+        .title {
             display: flex;
         font-family: Shrikhand;; 
         font-style: italic;
         font-weight: 400;
-        
     }
 
     .hearts{
@@ -79,38 +80,24 @@
         background: #fff;
         margin-bottom: -25px;
     }
-
-    .menu__entries{
-        display: flex;
-        font-size: 18px;
-        font-family: roboto;
-        font-weight: 500;
-        margin-left: 15px;
+    .menu_cards{
+        margin-left: 20px;
+    }
+    .flat{
         margin-bottom: 5px;
     }
-    .accompaniement{
-        font-size: 15px;
-        font-family:roboto;
-        font-weight: 300;
-        margin-left: 15px;
-    }
-    .menu__price{
-        position: absolute;
-        margin-left: 248px;
-        top: 34px;
-        font-weight: 900;
-        border: 1px solid;
-        padding: 5px;
-        border-radius: 10px;
-    }
-
-    .validation{
+    .price_menu{
         display: flex;
         flex-direction: row;
-        border:1px solid #99E2D0;
-        background-color: #99E2D0;
-        margin-left: 70px;
         align-items: center;
+        margin-top: 20px;
+        margin-left: 50px;
+        gap: 6px;
+    }
+    .fa-check{
+        margin-top: 23px;
+        width: 10px;
+        background-color: #99E2D0;
     }
         }
 }

@@ -1,0 +1,95 @@
+.body__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.body__container .fa-arrow-left {
+  position: absolute;
+  width: 18px;
+  margin: 24px 24px 23px 23px;
+}
+.body__container .main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.body__container .background {
+  height: 100%;
+}
+.body__container .menu {
+  display: flex;
+  position: relative;
+  top: -40px;
+  border-radius: 40px 40px 0 0;
+}
+.body__container .menu .title__restau {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  gap: 30px;
+}
+.body__container .menu .title {
+  display: flex;
+  font-family: Shrikhand;
+  font-style: italic;
+  font-weight: 400;
+}
+.body__container .menu .hearts {
+  margin-bottom: 5px;
+}
+.body__container .menu .entries {
+  display: flex;
+  flex-direction: column;
+}
+.body__container .menu hr {
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  margin-left: 13px;
+  border-color: #99E2D0;
+}
+.body__container .menu .plate {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: roboto;
+  margin-left: 13px;
+  padding-bottom: 12px;
+}
+.body__container .menu .cards {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 15px;
+  margin: 13px;
+}
+.body__container .menu .cards__content {
+  display: flex;
+  padding: 13px 0;
+  background: #fff;
+  margin-bottom: -25px;
+}
+.body__container .menu .menu_cards {
+  margin-left: 20px;
+}
+.body__container .menu .flat {
+  margin-bottom: 5px;
+}
+.body__container .menu .price_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  gap: 6px;
+}
+.body__container .menu .fa-check {
+  margin-top: 23px;
+  width: 10px;
+  background-color: #99E2D0;
+}/*# sourceMappingURL=restaurant.css.map */
