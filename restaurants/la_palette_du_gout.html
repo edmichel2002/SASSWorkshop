@@ -13,7 +13,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../sass/style.css">
-    <link rel="stylesheet" href="../assets/restaurant.css">
+    <link rel="stylesheet" href="../sass/restaurant.scss">
     <title>La palette du goût</title>
 </head>
 
@@ -30,14 +30,14 @@
         <main class="main-container">
             <section class="image">
                 <figure class="background">
-                    <img src="../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="background">
+                    <img src="../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="background" class="background_menu">
                 </figure>
             </section>
 
-            <section class="menu">
+            <section class="menu__restau">
                 <div class="title__restau">
                     <h1 class="title">La palette du goût</h1>
-                    <div class="hearts">
+                    <div class="_hearts">
                         <div class="content">
                             <i class="fa-regular fa-heart my-heart-empty"></i>
                             <i class="fa-solid fa-heart my-heart-full"></i>
@@ -47,137 +47,134 @@
                 <aside class="entries">
                     <h2 class="plate">ENTRÉES</h2>
                     <hr>
-                    <article class="cards">
+                    <article class="cards__restaurants">
                         <div class="cards__content">
                         <div class="menu_cards">
                             <h3 class="flat">Fricassé d'escargots</h3>
                             <p class="flavor">Au piment d'espelette</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">25€</div>
                     </div>
                     </article>
 
                     <article class="cards">
                         <div class="cards__content">
                         <div class="menu_cards">
-                            <h3 class="flat">Fricassé d'escargots</h3>
-                            <p class="flavor">Au piment d'espelette</p>
+                            <h3 class="flat">Foie gras de canard mi-cuit</h3>
+                            <p class="flavor">Et ses copeaux de truffe noire</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">35€</div>
                     </div>
                     </article>
 
                     <article class="cards">
                         <div class="cards__content">
                         <div class="menu_cards">
-                            <h3 class="flat">Fricassé d'escargots</h3>
-                            <p class="flavor">Au piment d'espelette</p>
+                            <h3 class="flat">œuf au plat</h3>
+                            <p class="flavor">Assaisonné à la truffe sur lit de caviar</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">20€</div>
                     </div>
                     </article>
                 </aside>
 
                 <aside class="entries">
-                    <h2 class="plate">ENTRÉES</h2>
+                    <h2 class="plate">PLATS</h2>
                     <hr>
                     <article class="cards">
                         <div class="cards__content">
                         <div class="menu_cards">
-                            <h3 class="flat">Fricassé d'escargots</h3>
-                            <p class="flavor">Au piment d'espelette</p>
+                            <h3 class="flat">Filet de bœuf aux herbes</h3>
+                            <p class="flavor">Acoompagné de sa ribambelle de légumes</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">40€</div>
                     </div>
                     </article>
 
                     <article class="cards">
                         <div class="cards__content">
                         <div class="menu_cards">
-                            <h3 class="flat">Fricassé d'escargots</h3>
-                            <p class="flavor">Au piment d'espelette</p>
+                            <h3 class="flat">Parmentier de queue de bœuf</h3>
+                            <p class="flavor">À la truffe noire sur sa purée de panais</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">35€</div>
                     </div>
                     </article>
 
                     <article class="cards">
                         <div class="cards__content">
                         <div class="menu_cards">
-                            <h3 class="flat">Fricassé d'escargots</h3>
-                            <p class="flavor">Au piment d'espelette</p>
+                            <h3 class="flat">Filet de turbot</h3>
+                            <p class="flavor">Aux agrumes</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">44€</div>
                     </div>
                     </article>
                 </aside>
 
 
                 <aside class="entries">
-                    <h2 class="plate">ENTRÉES</h2>
+                    <h2 class="plate">DESSERTS</h2>
                     <hr>
                     <article class="cards">
                         <div class="cards__content">
                         <div class="menu_cards">
-                            <h3 class="flat">Fricassé d'escargots</h3>
-                            <p class="flavor">Au piment d'espelette</p>
+                            <h3 class="flat">Paris-Brest</h3>
+                            <p class="flavor">Revisité</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">18€</div>
                     </div>
                     </article>
 
                     <article class="cards">
                         <div class="cards__content">
                         <div class="menu_cards">
-                            <h3 class="flat">Fricassé d'escargots</h3>
-                            <p class="flavor">Au piment d'espelette</p>
+                            <h3 class="flat">Macaron au chocolat d'exception</h3>
+                            <p class="flavor">Et glace à la vanille de Madagascar</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">22€</div>
                     </div>
                     </article>
 
                     <article class="cards">
                         <div class="cards__content">
                         <div class="menu_cards">
-                            <h3 class="flat">Fricassé d'escargots</h3>
-                            <p class="flavor">Au piment d'espelette</p>
+                            <h3 class="flat">Mousse de chocolat</h3>
+                            <p class="flavor">Au piment d'Espelette et à la truffe noire</p>
                         </div>
-                        <div class="price_menu">25€</div>
                         <div class="choice">
                             <i class="fa-sharp fa-solid fa-check"></i>
                         </div>
+                        <div class="price_menu">25€</div>
                     </div>
                     </article>
                 </aside>
             </section>
             
-
-
-
             <div class="button">
                 <a href="#restaurants">
                     <p class="text">Commander</p>

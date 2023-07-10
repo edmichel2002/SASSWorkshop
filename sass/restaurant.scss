@@ -2,26 +2,20 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-
-    .fa-arrow-left{
-        position: absolute;
-        width: 18px;
-        margin: 24px 24px 23px 23px;
-    }
-
     .main-container{
         display: flex;
         flex-direction: column;
         width: 100%;
-    }
-    .background{
-        height: 100%;
-    }
-
-    .menu{
+        .background_menu{
+                width: 375px;
+                height: 275px;
+                flex-shrink: 0;
+                border-radius: 15px 15px 15px 15px;
+        }
+        
+    .menu__restau{
         display: flex;
         position: relative;
-        top: -40px;
         border-radius: 40px 40px 0 0;
 
         .title__restau{
@@ -30,7 +24,6 @@
             align-items: flex-end;
             align-content: center;
             justify-content: flex-start;
-            flex-wrap: wrap;
             margin-left: 20px;
             margin-top:30px;
             margin-bottom: 25px;
@@ -67,9 +60,9 @@
         margin-left: 13px;
         padding-bottom: 12px ;
     }
-    .cards{
+    .cards__restaurants{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         position: relative;
         border-radius: 15px;
         margin: 13px;
@@ -78,7 +71,11 @@
         display: flex;
         padding: 13px 0;
         background: #fff;
-        margin-bottom: -25px;
+        width: 80%;
+    }
+    .choice{
+        width: 20%;
+        background: white;
     }
     .menu_cards{
         margin-left: 20px;
@@ -101,6 +98,5 @@
     }
         }
 }
-
-
+}
 

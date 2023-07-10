@@ -350,7 +350,7 @@ a {
   padding-left: 3px;
   padding-right: 3px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 346px;
   height: 160px;
 }
