@@ -1,14 +1,20 @@
+@import"../sass/utils/variables.scss";
+@import"../sass/utils/flex.scss";
+@import "../sass/pages/breakpoints.scss";
+@import "../sass/utils/animations.scss";
+@import"../sass/components/button.scss";
 @import "../sass/base/reset.scss";
+@import "../sass/pages/loader.scss";
+@import "../sass/utils/image.scss";
+@import "../sass/layout/header";
+
 @import"../sass/components/hearts";
 @import"../sass/components/running";
-@import"../sass/components/button.scss";
 @import"../sass/components/ellipse.scss";
-@import "../sass/layout/header.scss";
-@import "../sass/layout/footer.scss";
 @import "../sass/layout/header_restau";
 @import "../sass/libs/_home_page.scss";
 @import "../sass/pages/loader.scss";
 @import "../sass/pages/cards_home.scss";
 @import"../sass/utils/functions.scss";
 @import "../sass/utils/mixins.scss";
-@import"../sass/utils/variables.scss";
+@import "../sass/layout/footer.scss";
