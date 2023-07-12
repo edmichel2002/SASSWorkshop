@@ -13,12 +13,12 @@
         display: flex;
         flex-direction: column;
         background:#F7F7F7;
+        align-items: center;
+        justify-content: center;
     }
     .title__menu{
         width: 275px ;
         margin-top: 40px;
-        margin-left: 15px;
-        margin-right:58px ;
         text-align: center;
         height: 68px;
         font-weight:700 ;
@@ -58,6 +58,12 @@
         font-weight: 700;
         margin-left: 10px;
         
+    }
+
+    #restaurants .container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
     
     .local{
