@@ -1,7 +1,10 @@
 .fa-arrow-left{
+    transform: scaleX(1);
     position: absolute;
-    width: 18px;
-    margin: 24px 24px 23px 23px;
+    top: 1em;
+    left: 2em;
+    font-size: 1.3em;
+    $black: #000;
 }
 
 

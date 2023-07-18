@@ -5,15 +5,21 @@
     .main-container{
         display: flex;
         flex-direction: column;
-        margin-bottom: 15px;
-        
+
+        .background_menu{
+            width: 100%;
+            height: 275px;
+            object-fit: cover;
+        }
+
         .menu__restau{
             display: flex;
             position: relative;
             border-radius: 40px 40px 0 0;
             flex-direction: column;
-            background-color: #F6F6F6;
+            background-color: $grey1;
             margin-top: -40px;
+           // width: 80%;
 
             .title__restau{
                 display: flex;
@@ -41,13 +47,14 @@
             .entries{
                 display: flex;
                 flex-direction: column;
+                margin-bottom: 15px;
             }
             hr{
                 width: 40px;
                 height: 3px;
-                background-color: #99E2D0;
+                background-color: $tertiaire;
                 margin-left: 13px;
-                border-color: #99E2D0;
+                border-color: $tertiaire;
 
             }
             .plate{
@@ -64,42 +71,59 @@
                 border-radius: 15px;
                 margin: 13px;
                 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+                
             }
             .cards__content{
                 display: flex;
                 padding: 13px 0;
-                background: #fff;
-                width: 80%;
+                background:$white;
+                width: 100%;
+                
+            }
+
+            .animation_1{
+                animation:appear 1s;
+            }
+            .animation_2{
+                animation: appear 3s;
+            }
+
+            .animation_3{
+                animation: appear 5s;
             }
             .choice{
                 width: 20%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                background-color: #99E2D0;
+                background-color: $tertiaire;
                 border-radius: 0px 13px 13px 0px;
+                transition: all 200ms ease-in-out;
+                height: 69px;
+                width: 59px;
+}
             }
             .menu_cards{
                 margin-left: 20px;
+                width: 100%;
             }
             .flat{
                 margin-bottom: 5px;
             }
-            .price_menu{
+            .menu_flavor_price{
                 display: flex;
-                flex-direction: row;
-                align-items: center;
-                margin-top: 20px;
-                margin-left: 50px;
-                gap: 6px;
+                justify-content: space-between;
+            }
+            .price_menu{
+                margin-right: 20px;
             }
             .fa-check{
                 width: 20px;
                 height: 20px;
-                background-color: white;
+                background-color: $white;
                 border-radius: 50%;
                 padding: 2px 2px;
-                color: #99e2d0;
+                color: $tertiaire;
             }
         }
         .container-button{
@@ -108,5 +132,4 @@
             justify-content: center;
         }
     }
-}
 

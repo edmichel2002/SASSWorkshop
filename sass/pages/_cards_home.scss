@@ -1,6 +1,7 @@
 .cards {
-    background-color: white;
+    background-color:$white ;
     border-radius: 15px 15px 0px 0px;
+    width: 100%;
 }
 
 .cards img{
@@ -13,17 +14,16 @@
     position: absolute;
     top: 7%;
     left: 69%;
-    background-color:#99E2D0 ;
+    background-color:$tertiaire ;
     width: fit-content;
     padding: 8px;
     border-radius: 2px;
-    color:#008766 ;
+    color:$green;
 }
 .cards__content{
     border-radius: 15px 0 0 15px;
     position: relative;
 }
-
 
 .rectangle{
     display: flex;
@@ -41,5 +41,5 @@
     margin-top: 10px;
     margin-left: 13px;
     margin-bottom: 5px;
-    color:black;
+    color:$black;
 }
