@@ -71,14 +71,14 @@
                 border-radius: 15px;
                 margin: 13px;
                 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-                
+                cursor: pointer;
             }
             .cards__content{
                 display: flex;
                 padding: 13px 0;
                 background:$white;
                 width: 100%;
-                
+                cursor: pointer;
             }
 
             .animation_1{
@@ -92,16 +92,15 @@
                 animation: appear 5s;
             }
             .choice{
-                width: 20%;
+                width: 10%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 background-color: $tertiaire;
                 border-radius: 0px 13px 13px 0px;
-                transition: all 200ms ease-in-out;
-                height: 69px;
-                width: 59px;
-}
+                opacity: 0;
+                ;
+            }
             }
             .menu_cards{
                 margin-left: 20px;
