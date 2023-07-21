@@ -19,7 +19,7 @@ $xlPoint_stop : 1440px ;
     .menu__restau {
     padding: 0 50px;
     width: 70%;
-    margin-left: 100px;
+    margin: 0 auto;
     }
 }
 
@@ -88,7 +88,15 @@ $xlPoint_stop : 1440px ;
             padding-right: 50px;
             gap: 30px;
         }
+        .eat{
+            order: 1;
         }
+        .contact{
+            order: 2;
+        }
+        }
+
+            
 
 
     

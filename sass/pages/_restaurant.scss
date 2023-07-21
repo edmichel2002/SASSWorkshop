@@ -72,6 +72,8 @@
                 margin: 13px;
                 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
                 cursor: pointer;
+                overflow: hidden;
+                background-color: #fff;
             }
             .cards__content{
                 display: flex;
@@ -92,14 +94,24 @@
                 animation: appear 5s;
             }
             .choice{
-                width: 10%;
+                width: 50px;
+                height: 100%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 background-color: $tertiaire;
                 border-radius: 0px 13px 13px 0px;
-                opacity: 0;
-                ;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                transform: translateX(100%);
+                transition: transform 300ms ease-in-out;
+            }
+            .cards__restaurants:hover > .choice {
+                transform: translateX(0%);
+            }
+            .cards__restaurants:hover > .cards__content {
+                width: calc(100% - 50px);
             }
             }
             .menu_cards{
