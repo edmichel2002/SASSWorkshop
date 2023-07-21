@@ -327,7 +327,7 @@ i {
   height: 72px;
 }
 .content__running .list__running:hover {
-  background-color: #baa1d9;
+  background-color: #EAEAEA;
   cursor: pointer;
 }
 .content__running .list__running .fa-solid {
@@ -550,6 +550,9 @@ i {
 }
 .body__container .main-container .menu__restau .animation_3 {
   animation: appear 5s;
+}
+.body__container .main-container .menu__restau .animation_4 {
+  animation: appear 6s;
 }
 .body__container .main-container .menu__restau .choice {
   width: 50px;
