@@ -1,3 +1,12 @@
+.hearts{
+    width: 22px;
+    height: 21px;
+    flex-shrink: 0; 
+    margin-bottom: 4px;
+    cursor: pointer;
+    color: $black;
+    }
+
 .my-heart-full{
     opacity: 0;/* il sera là mais pas affiché*/
     transition-property: all;
@@ -10,11 +19,4 @@
     background-image:linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%) ;
     background-clip: text;
     -webkit-background-clip: text;
-}
-.hearts{
-width: 22px;
-height: 21px;
-flex-shrink: 0; 
-margin-bottom: 4px;
-cursor: pointer;
 }
