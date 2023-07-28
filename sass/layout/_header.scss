@@ -3,9 +3,8 @@ body {
     font-size: 16px;
 
         .header {
-        display: flex;
+        @include flex-justify-center;
         flex-direction: column;
-        justify-content: center;
         width: 100%;
 
         .logo{

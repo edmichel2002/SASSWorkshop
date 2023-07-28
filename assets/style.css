@@ -143,8 +143,8 @@ body {
 }
 body .header {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
 }
 body .header .logo {
@@ -630,9 +630,6 @@ i {
     min-width: 1024px;
     margin: auto;
     margin-top: 25px;
-  }
-  .cards__news {
-    display: none;
   }
   .title {
     text-align: center;
