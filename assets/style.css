@@ -409,6 +409,7 @@ i {
   flex-direction: column;
   padding: 22px 25px;
   background: #353535;
+  position: relative;
 }
 
 .text-footer {
